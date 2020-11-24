@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your roll no."
+        android:textColorHint="#706D6D"
+        android:textSize="25sp"
+        android:id="@+id/roll_id"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your name "
+        android:textColorHint="#706D6D"
+        android:textSize="25sp"
+        android:id="@+id/name_id"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your course name"
+        android:textColorHint="#706D6D"
+        android:textSize="25sp"
+        android:id="@+id/course_id"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter course duration"
+        android:textColorHint="#706D6D"
+        android:textSize="25sp"
+        android:id="@+id/duration_id"
+        />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="add to firebase"
+        android:onClick="process"
+        android:textSize="15sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+        />
+
+</LinearLayout>
